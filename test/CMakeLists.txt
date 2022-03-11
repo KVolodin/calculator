@@ -9,5 +9,4 @@ include_directories(
 )
  
 add_executable(run_test test.cpp)
-target_link_libraries(
-  run_test ${GTEST_LIBRARIES} Threads::Threads)
+target_link_libraries(run_test ${GTEST_LIBRARIES} Threads::Threads)
